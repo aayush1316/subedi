@@ -63,11 +63,32 @@ body {
   border: none;
   background-color: #000000;
 }
-.new{
-  background-color:rgb(217, 217, 192);
-  width:400px;
-  height:500px;
+.new2{
+  background-color:white;
+  position:relative;
+  max-width:200%;
+  min-width:100%;
+  max-height:190%;
+  min-height:90%;
+  border: 3px solid #73AD21;
+  
+  display: inline-block;
+  background-image:url(../images/12.jpg);
+  background-size:50% 45%;
 }
+.new{
+  padding-left:20px;
+  background-color:white;
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  border: 3px solid #73AD21;
+  
+  display: inline-block;
+  
+  
+}
+
 
 .new h1{
   text-align:center;
@@ -79,9 +100,28 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 
 }
-.new p{
-  text-indent:80px;
-  margin:2px;
+.new2 p{
+  
+  margin:10px;
+}
+.new2 h1{
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  color:red;
+}
+
+.new2 h3{
+  text-overflow: ellipsis;
+  color:rgb(255, 0, 0);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin:40px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:xx-large;
+
+}
+.new2 p{
+  color:#24263c;
+  margin:10px;
 }
 /*header section*/
 .hero_area {
@@ -89,6 +129,9 @@ body {
   background-size: cover;
   
 
+}
+.new p{
+  text-align:center;
 }
 
 .sub_page .hero_area {
@@ -111,7 +154,7 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 45px;
   padding: 0;
-  color: red;
+  color: rgb(234, 226, 226);
   text-align: center;
   position: relative;
   text-transform: uppercase;
