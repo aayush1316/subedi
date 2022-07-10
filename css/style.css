@@ -95,10 +95,15 @@ body {
   font-family: "Times New Roman", Times, serif;
   color:red;
 }
+.new h2{
+  text-align:center;
+  font-family: "Lucida Console", "Courier New","monospace","cursive";
+  color:rgb(0, 217, 255);
+}
 .new h3{
   margin:40px;
   font-family: "Lucida Console", "Courier New", monospace;
-
+  color:rgb(0,217,255);
 }
 .new2 p{
   
@@ -109,15 +114,16 @@ body {
   font-family: "Times New Roman", Times, serif;
   color:red;
 }
-
-.new2 h3{
+.new2 h3 span{
+  background-color:rgb(255, 170, 0);
+}
+.new2 h3 {
   text-overflow: ellipsis;
-  color:rgb(255, 0, 0);
+  color:white;
   font-family:Georgia, 'Times New Roman', Times, serif;
   margin:40px;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size:xx-large;
-
 }
 .new2 p{
   color:#24263c;
