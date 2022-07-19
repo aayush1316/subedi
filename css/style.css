@@ -4,7 +4,23 @@ body {
   background-color: white;
  
 }
+.animated_rainbow_2 {
+  -webkit-animation: animatedBackground_b 3s linear infinite alternate;
+}
 
+@keyframes animatedBackground_b{
+  0% {color: #ff8b00}
+  10% {color: #e8ff00}
+  20% {color: #5dff00}
+  30% {color: #00ff2e}
+  40% {color: #00ffb9}
+  50% {color: #00b9ff}
+  60% {color: #002eff}
+  70% {color: #5d00ff}
+  80% {color: #e800ff}
+  90% {color: #ff008b}
+  100% {color: #ff0000}
+}
 .layout_padding {
   padding: 90px 0;
 }
@@ -70,7 +86,7 @@ body {
   min-width:100%;
   max-height:190%;
   min-height:90%;
-  border: 3px solid #3c01fd;
+  border: 5px solid rgb(0,255,255);
   
   display: inline-block;
   background-image:url(../images/hell.png);
@@ -82,7 +98,7 @@ body {
   position:relative;
   max-width:100%;
   max-height:100%;
-  border: 3px solid #0408ed;
+  border: 5px solid rgb(0,255,255);
   
   display: inline-block;
   
@@ -93,7 +109,8 @@ body {
 .new h1{
   text-align:center;
   font-family: "Times New Roman", Times, serif;
-  color:red;
+  -webkit-animation: animatedBackground_b 3s linear infinite alternate;
+
 }
 .new h2{
   text-align:center;
@@ -112,16 +129,17 @@ body {
 .new2 h1{
   text-align:center;
   font-family: "Times New Roman", Times, serif;
-  color:red;
+  -webkit-animation: animatedBackground_b 3s linear infinite alternate;
+
 }
 
 .new2 h3 {
   text-overflow: ellipsis;
-  color:rgb(197, 216, 24);
+  color:rgb(0,255,255);
   font-family:Georgia, 'Times New Roman', Times, serif;
-  margin:40px;
+  margin:5%;
   font-family: "Lucida Console", "Courier New", monospace;
-  font-size:xx-large;
+  font-size:2rem;
 }
 .new2 p{
   color:#24263c;
@@ -297,7 +315,7 @@ a:focus {
   left: 0;
   width: 600px;
   height: 130%;
-  border: 1px solid #240aea;
+  border: 3px solid rgb(0,255,255);
 }
 
 .slider_section .detail-box h2 {
